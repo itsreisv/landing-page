@@ -1,6 +1,8 @@
 html, body {
     font-style: roboto;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
@@ -33,6 +35,21 @@ h2 {
     font-weight: bolder;
     justify-content: center;
     align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 p {
@@ -140,3 +157,54 @@ p {
     flex: 0 0 auto;
 }
   
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 60px;
+}
+
+.quote2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    justify-content: end;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    min-width: 50%;
+}
+
+.bottom {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+   flex-wrap: wrap;
+}
+
+.button {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

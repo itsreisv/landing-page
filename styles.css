@@ -208,3 +208,12 @@ p {
     align-items: center;
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
